@@ -25,4 +25,16 @@ This project aims to build a compiler for a subset of C programs. This is accomp
 
    - **Semantic Checks** : In this task, we perform various checks such as scope checking, type checking and overloading resolution to ensure that the input program is semantically correct.
 
-   - **Abstract Syntax Tree** : In this task, we construct the Abstract Syntax Tree for a syntactically and semantically correct program. 
+   - **Abstract Syntax Tree** : In this task, we construct the Abstract Syntax Tree for a syntactically and semantically correct program.
+
+### 3. Code Generator
+
+   In this phase, we generate 32-bit x86 code with the help of the Abstract Syntax Tree and Symbol Table constructed in the previous phrase. In order to generate efficient x86 code, we employ the **Sethi-Ullman Algorithm**.
+
+## References
+
+[Bison Manual](https://www.gnu.org/software/bison/manual/bison.pdf)
+
+[Flex Manual](https://people.iith.ac.in/ramakrishna/Compilers-Aug14/doc/flex.pdf)
+
+[x86 Manual](https://docs.oracle.com/cd/E19641-01/802-1948/802-1948.pdf)
